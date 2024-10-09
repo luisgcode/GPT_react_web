@@ -30,10 +30,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-links">
-        <div className="navbar-links_logo">
+        <div className="navbar-links-logo">
           <img src={logo} alt="Company-logo" />
         </div>
-        <div className="navbar-links_container">
+        <div className="navbar-links-container">
           <Menu />
         </div>
       </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
       </div>
 
       {/* // ****************  Mobile menu from here   *****************/}
-      <div className="navbar-menu">
+      <div className="navbar-mobile">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
@@ -58,10 +58,10 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="navbar-menu_container scale-up-center">
-            <div className="navbar-menu_container-links">
+          <div className="navbar-mobile-container scale-up-center">
+            <div className="navbar-links-container-mobile">
               <Menu />
-              <div className="navbar-menu_container-links-sign">
+              <div className="navbar-sign-mobile">
                 <p>Sign In</p>
                 <button>Sign up</button>
               </div>
