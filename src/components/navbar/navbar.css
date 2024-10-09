@@ -70,6 +70,7 @@
   }
 }
 
+/* The actual popUp with menu */
 .navbar-mobile-container {
   display: flex;
   justify-content: flex-end;
@@ -81,6 +82,8 @@
   position: absolute;
   top: 40px;
   right: 0;
+  color: white;
+  font-weight: 500;
   margin-top: 1rem;
   min-width: 210px;
   border-radius: 5px;
@@ -99,5 +102,35 @@
 
   .navbar-mobile {
     display: flex;
+  }
+  .navbar-sign-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-sign {
+    display: none;
+  }
+
+  .navbar-sign-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    p {
+      text-decoration: underline;
+    }
+
+    button {
+      padding: 0.5rem;
+      background-color: #ff4820;
+      border-radius: 5px;
+      font-weight: 500;
+      color: white;
+      font-size: 1.6rem;
+      border: none;
+      cursor: pointer;
+      outline: none;
+    }
   }
 }
