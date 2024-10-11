@@ -28,9 +28,9 @@ const Header = () => {
             <b>1,600</b> people requested access a visit in last 24 hours
           </p>
         </div>
-        <div className="header-image">
-          <img src={ai} alt="ai image" />
-        </div>
+      </div>
+      <div className="header-image">
+        <img src={ai} alt="ai image" />
       </div>
     </div>
   );
