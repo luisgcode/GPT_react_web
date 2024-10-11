@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+}
+
+.header-content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+
+  h1 {
+    font-weight: 800;
+    font-size: 6.2rem;
+  }
+
+  p {
+    color: #ffc788;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.header-content-input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+  display: flex;
+
+  input {
+    border-radius: 5px 0px 0px 5px;
+    background: #052d56;
+    color: #fff;
+    font-size: 2rem;
+    min-height: 5rem;
+    flex: 2;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.268);
+    padding: 0 1rem;
+  }
+
+  button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 5rem;
+
+    background: #ff4820;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 2rem;
+    border: none;
+
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    padding: 0 1rem;
+    font-weight: bold;
+  }
+}
