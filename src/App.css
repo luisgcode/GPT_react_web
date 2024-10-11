@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-size: 1.6rem;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
   color: white;
   background: var(--color-bg);
 }
@@ -162,5 +162,11 @@ img[alt=""] {
   }
   .section__margin {
     padding: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section__padding {
+    padding: 4rem 1.5rem;
   }
 }
