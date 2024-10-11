@@ -2,6 +2,7 @@ import React from "react";
 
 import "./header.css";
 import people from "../../assets/people.png";
+import ai from "../../assets/ai.png";
 
 const Header = () => {
   return (
@@ -22,6 +23,10 @@ const Header = () => {
         </div>
         <div className="header-content-people">
           <img src={people} alt="People image" />
+          <p>1,600 people requested access a visit in last 24 hours</p>
+        </div>
+        <div className="header-image">
+          <img src={ai} alt="ai image" />
         </div>
       </div>
     </div>
