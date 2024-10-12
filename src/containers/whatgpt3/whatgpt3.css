@@ -41,3 +41,21 @@
 .gpt-feature {
   display: flex;
 }
+
+.gpt-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 2rem;
+
+  h1 {
+    font-size: clamp(3rem, 5vw, 3.8rem);
+    font-weight: 800;
+    line-height: 4.5rem;
+    font-style: normal;
+  }
+
+  p {
+  }
+}

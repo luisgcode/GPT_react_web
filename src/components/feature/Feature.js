@@ -5,7 +5,7 @@ import React from "react";
 const Feature = () => {
   return (
     <div>
-      <h1>feature</h1>
+      <p>feature</p>
     </div>
   );
 };

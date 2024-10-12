@@ -13,7 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: clamp(1.4rem, 2vw, 1.6rem);
-  color: white;
+  color: #ffc788;
   background: var(--color-bg);
 }
 
