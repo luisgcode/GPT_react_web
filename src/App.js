@@ -7,11 +7,12 @@ import Article from "./components/article/Article";
 import Brand from "./components/brand/Brand";
 import Cta from "./components/cta/Cta";
 import Feature from "./components/feature/Feature";
+
 import Navbar from "./components/navbar/Navbar";
 
 // ^ From containers
 import Blog from "./containers/blog/Blog";
-import Features from "./containers/features/Features";
+
 import Footer from "./containers/footer/Footer";
 import Header from "./containers/header/Header";
 import Possibility from "./containers/possibility/Possibility";
@@ -27,7 +28,7 @@ function App() {
 
       <Brand />
       <Whatgpt3 />
-      <Features />
+      <Feature />
       <Possibility />
       <Cta />
       <Blog />

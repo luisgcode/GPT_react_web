@@ -1,12 +1,12 @@
 import React from "react";
 
 import "./whatgpt3.css";
-import Feature from "../features/Features";
+import Feature from "../../components/feature/Feature";
 
 const Whatgpt3 = () => {
   return (
     <div className="gpt section__margin" id="whpt3">
-      <div className="gpt-feature">
+      <div className="gpt-features">
         <Feature />
       </div>
       <div className="gpt-heading">

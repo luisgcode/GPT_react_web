@@ -37,3 +37,7 @@
     rgba(0, 40, 83, 1) 100%
   );
 }
+
+.gpt-feature {
+  display: flex;
+}
