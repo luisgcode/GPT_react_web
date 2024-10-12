@@ -17,7 +17,7 @@ const Whatgpt3 = () => {
       </div>
       <div className="gpt-container">
         <Feature />
-        <Feature />
+
         <Feature />
       </div>
     </div>

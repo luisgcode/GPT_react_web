@@ -28,7 +28,6 @@ function App() {
 
       <Brand />
       <Whatgpt3 />
-      <Feature />
       <Possibility />
       <Cta />
       <Blog />
