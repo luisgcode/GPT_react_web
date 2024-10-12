@@ -1,0 +1,39 @@
+.gpt {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 11% 15%,
+    rgb(30, 51, 82) 0%,
+    rgba(0, 40, 83, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 11% 15%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(0, 40, 83, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 11% 15%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(0, 40, 83, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 11% 15%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(0, 40, 83, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 11% 15%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(0, 40, 83, 1) 100%
+  );
+}
