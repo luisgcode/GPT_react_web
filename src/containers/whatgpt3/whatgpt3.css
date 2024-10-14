@@ -42,10 +42,14 @@
 .gpt-features .features-container {
   display: flex;
   align-items: center;
+
   gap: 5rem;
   h1 {
-    flex: 1;
+    margin: 0;
     min-width: max-content;
+    .detail-border {
+      top: 10px;
+    }
   }
 }
 
@@ -61,6 +65,7 @@
     font-weight: 800;
     line-height: 4.5rem;
     font-style: normal;
+    max-width: 700px;
   }
 }
 
@@ -68,5 +73,5 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background: red;
+  gap: 3rem;
 }

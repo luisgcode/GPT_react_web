@@ -6,7 +6,10 @@ const Feature = ({ title, text }) => {
   return (
     <div className="features-container">
       <div className="features-container-title">
-        <h1>{title}</h1>
+        <h1>
+          {title}
+          <span className="detail-border "></span>
+        </h1>
       </div>
       <div className="features-container-text">
         <p> {text}</p>
