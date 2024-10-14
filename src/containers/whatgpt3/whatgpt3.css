@@ -47,9 +47,6 @@
   h1 {
     margin: 0;
     min-width: max-content;
-    .detail-border {
-      top: 10px;
-    }
   }
 }
 

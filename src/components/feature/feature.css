@@ -11,15 +11,6 @@
   }
 }
 
-.detail-border {
-  position: absolute;
-  height: 4px;
-  width: 38px;
-  background: #ff4820;
-  top: -10px;
-  left: 0;
-}
-
 @media screen and (max-width: 900px) {
   .features-container {
     position: relative;
@@ -34,10 +25,6 @@
   .gpt-features .features-container {
     flex-direction: column;
     text-align: center;
-
-    .detail-border {
-      display: none;
-    }
 
     h1 {
       font-size: clamp(1.8rem, 4vw, 2.4rem);
