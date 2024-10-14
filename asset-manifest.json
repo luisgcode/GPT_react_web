@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/GPT_react_web/static/css/main.ca644203.css",
-    "main.js": "/GPT_react_web/static/js/main.581b0fdb.js",
+    "main.css": "/GPT_react_web/static/css/main.36186f5d.css",
+    "main.js": "/GPT_react_web/static/js/main.c5298d67.js",
     "static/media/ai.png": "/GPT_react_web/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/people.png": "/GPT_react_web/static/media/people.5cd2d6fbcd48bd63f106.png",
     "static/media/logo.svg": "/GPT_react_web/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
     "index.html": "/GPT_react_web/index.html",
-    "main.ca644203.css.map": "/GPT_react_web/static/css/main.ca644203.css.map",
-    "main.581b0fdb.js.map": "/GPT_react_web/static/js/main.581b0fdb.js.map"
+    "main.36186f5d.css.map": "/GPT_react_web/static/css/main.36186f5d.css.map",
+    "main.c5298d67.js.map": "/GPT_react_web/static/js/main.c5298d67.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca644203.css",
-    "static/js/main.581b0fdb.js"
+    "static/css/main.36186f5d.css",
+    "static/js/main.c5298d67.js"
   ]
 }
