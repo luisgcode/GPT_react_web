@@ -2,19 +2,19 @@ export const lineChartData = {
   labels: ["2018", "2019", "2020", "2021", "2022", "2023", "2024"],
   datasets: [
     {
-      label: "GPT3 - Users",
-      data: [3000, 4000, 1000, 400, 3002, 20, 400],
-      borderColor: "rgba(75, 192, 192)",
-    },
-    {
-      label: "GPT2 - Users",
-      data: [1000, 1000, 2000, 300, 302, 220, 200],
-      borderColor: "rgba(78, 092, 92)",
-    },
-    {
       label: "GPT - Users",
-      data: [500, 200, 100, 400, 122, 220, 200],
-      borderColor: "royalble",
+      data: [1000, 2000, 2500, 2200, 2502, 3210, 3200],
+      borderColor: "#ffc788",
+    },
+    {
+      label: "Gemini - Users",
+      data: [400, 700, 600, 670, 702, 700, 800],
+      borderColor: "#9b6d39",
+    },
+    {
+      label: "Copilot - Users",
+      data: [650, 1700, 2100, 1600, 1602, 2210, 2400],
+      borderColor: "#f5e5d3",
     },
   ],
 };

@@ -32,7 +32,7 @@ const Graphlinear = () => {
     scales: {
       x: {
         ticks: {
-          color: "#39ddf3",
+          color: "white",
           font: {
             weight: "bold",
           },
@@ -40,7 +40,7 @@ const Graphlinear = () => {
       },
       y: {
         ticks: {
-          color: "#ff4820",
+          color: "#ffc788",
           font: {
             weight: "bold",
           },
@@ -58,6 +58,12 @@ const Graphlinear = () => {
   const data = {};
   return (
     <div className="graph-center">
+      <div className="section__margin">
+        <h1 className="gradient__text">
+          The future is Now and you Just need to Realize it. Step into Future
+          today & Make it happen.
+        </h1>
+      </div>
       <div className="graph-container section__margin">
         <Line className="lineGraph" options={options} data={lineChartData} />
       </div>
