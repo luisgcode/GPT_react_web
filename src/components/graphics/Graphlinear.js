@@ -63,6 +63,7 @@ const Graphlinear = () => {
           The future is Now and you Just need to Realize it. Step into Future
           today & Make it happen.
         </h1>
+        <p>Request Early Access To Get Started.</p>
       </div>
       <div className="graph-container  ">
         <Line className="lineGraph" options={options} data={lineChartData} />

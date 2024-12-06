@@ -3,17 +3,17 @@ export const lineChartData = {
   datasets: [
     {
       label: "GPT - Users",
-      data: [1000, 2000, 2500, 2200, 2502, 3210, 3200],
+      data: [1200, 2400, 2600, 2800, 3000, 3200, 3500],
       borderColor: "#ff4820",
     },
     {
       label: "Gemini - Users",
-      data: [400, 700, 600, 670, 702, 700, 800],
+      data: [500, 800, 850, 870, 900, 950, 1000],
       borderColor: "#9b6d39",
     },
     {
       label: "Copilot - Users",
-      data: [650, 1700, 2100, 1600, 1602, 2210, 2400],
+      data: [700, 1500, 1800, 2000, 2100, 2300, 2500],
       borderColor: "#f5e5d3",
     },
   ],
