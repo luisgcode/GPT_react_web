@@ -8,6 +8,10 @@
 
 .graph-hero {
   flex: 2;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
 }
 
 .graph-container {
@@ -16,4 +20,14 @@
   border-radius: 5px;
   background: #00244c;
   flex: 3;
+}
+
+@media screen and (max-width: 900px) {
+  .graph-section {
+    flex-direction: column;
+  }
+
+  .graph-container {
+    width: 100%;
+  }
 }
