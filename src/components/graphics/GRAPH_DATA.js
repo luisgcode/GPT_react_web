@@ -4,7 +4,7 @@ export const lineChartData = {
     {
       label: "GPT - Users",
       data: [1000, 2000, 2500, 2200, 2502, 3210, 3200],
-      borderColor: "#ffc788",
+      borderColor: "#ff4820",
     },
     {
       label: "Gemini - Users",

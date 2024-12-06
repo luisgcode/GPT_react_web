@@ -57,14 +57,14 @@ const Graphlinear = () => {
   };
   const data = {};
   return (
-    <div className="graph-center">
-      <div className="section__margin">
+    <div className="graph-section section__margin">
+      <div className="graph-hero">
         <h1 className="gradient__text">
           The future is Now and you Just need to Realize it. Step into Future
           today & Make it happen.
         </h1>
       </div>
-      <div className="graph-container section__margin">
+      <div className="graph-container  ">
         <Line className="lineGraph" options={options} data={lineChartData} />
       </div>
     </div>
