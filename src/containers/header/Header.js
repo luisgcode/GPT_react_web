@@ -1,5 +1,7 @@
 import React from "react";
 
+import { motion } from "framer-motion";
+
 import "./header.css";
 import people from "../../assets/people.png";
 import ai from "../../assets/ai.png";
@@ -24,7 +26,6 @@ const Header = () => {
         <div className="header-content-people">
           <img src={people} alt="People image" />
           <p>
-            {" "}
             <b>1,600</b> people requested access a visit in last 24 hours
           </p>
         </div>
